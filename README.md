@@ -12,6 +12,6 @@ clone this repo with:
 
 Add the following line to ```/etc/prt-get.conf```:
 
-```prtdir /usr/ports/parklabs/crux```
+```prtdir /usr/ports/parklabs-crux```
 
 It should come before any other prtdir entries as it overrides default packages in many cases - however if you prefer default packages from crux, you can load it after and it *should* work, but I can't promise anything.
